@@ -11,7 +11,7 @@ Actual data: http://py4e-data.dr-chuck.net/regex_sum_166936.txt (There are 85 va
 
 import re
 
-fileHandler = open('regex_sum_42.txt', 'r')
+fileHandler = open('regex_sum_166936.txt', 'r')
 numList = list()
 totalSum = 0
 x = None
@@ -25,4 +25,4 @@ for line in fileHandler:
             numList.append(int(number))
             totalSum += int(number)
 
-print(numList)
+print(totalSum)
